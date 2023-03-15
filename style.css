@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#efefef;
+    font-family: "open sans", "sans-sherif";
+}
+.header{
+    padding: 10px;
+}
+.brand{
+    color: #fbf2c0;
+}
+.container-0{
+
+    background-color:#43281C;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+.logo-image{
+    height: 30px;
+    width: 30px;
+}
+.header{
+    font-size: 30px;
+}
+
+.container-1{
+display: flex;
+justify-content: space-around;
+
+}
+.container-1 div{
+    padding: 10px;
+border: 1px #ccc solid;
+}
+body{
+    background-color: #EFEFEF;
+}
+.box{
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #EEE1D5;
+    border-radius: 30px;
+}
+.prices{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.takainputlabel{
+    grid-area: "nav";
+    background-color: aquamarine;
+}
+.takainput{
+    
+    grid-area: "nv";
+    border-radius: 15px;
+}
+.paymentinput{
+    display: grid;
+    grid-template-areas: "nav"
+    "nv nv nv nv nv"
+    ;
+}
+.paymenthead{
+    padding-bottom: 100px;
+    font: 1em "verdana";
+    font-weight: bold;
+}
+.example-group{
+    display:flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.input-label{
+    display: inline;
+    width: 100px;
+    position: relative;
+    left: 35px;
+    top: 7px;
+    padding-left: 7px;
+    
+    background: #eee1d5 ;
+    border-radius: 10px;
+    
+    font-size: 15px;
+
+}
+.example-input{
+    padding: 10px;
+    font-size: medium;
+    border-color: #885a2d;
+    background: #eee1d5;
+    border-radius: 30px;
+}
+
+.example-input-ccv{
+    border-color: #885a2d;
+
+    display: inline;
+    background: #eee1d5;
+    border-radius: 30px;
+    
+    color: #885a2d;
+    width: 400px;
+}
+.payment-section{
+    color: #885a2d;
+}
+.box-3{
+    border: #43281C solid;
+    margin-bottom: 100px;
+}
